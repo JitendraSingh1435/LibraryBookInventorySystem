@@ -19,4 +19,19 @@ public class Library {
 
     private Book[] booksAvailable;
 
+    public Library() {
+        this.booksAvailable = new Book[10];
+
+        this.booksAvailable[0] = new Book("The Art Of Letting Go");
+        this.booksAvailable[1] = new Book("Harry Potter");
+        this.booksAvailable[2] = new Book("Think And Grow Rich");
+        this.booksAvailable[3] = new Book("Side Hustle");
+        this.booksAvailable[4] = new Book("A Girl In Room Number 309");
+        this.booksAvailable[5] = new Book("Eat That Frog");
+        this.booksAvailable[6] = new Book("Blink! The Power of Thinking Without Thinking");
+        this.booksAvailable[7] = new Book("The POWER of Your Subconscious Mind");
+        this.booksAvailable[8] = new Book("How To Talk To Any One");
+        this.booksAvailable[9] = new Book("Rich Dad Poor Dad");
+    }
+
 }
