@@ -37,4 +37,10 @@ public class Book {
     public void setIsbnNumber(String isbnNumber) {
         this.isbnNumber = isbnNumber;
     }
+
+    @Override
+    public String toString() {
+        return bookName;
+    }
+
 }
