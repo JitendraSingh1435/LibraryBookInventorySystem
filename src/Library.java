@@ -34,4 +34,12 @@ public class Library {
         this.booksAvailable[9] = new Book("Rich Dad Poor Dad");
     }
 
+    public Book[] getBooksAvailable() {
+        return booksAvailable.clone();
+    }
+
+    public void setBooksAvailable(Book[] booksAvailable) {
+        this.booksAvailable = booksAvailable;
+    }
+
 }

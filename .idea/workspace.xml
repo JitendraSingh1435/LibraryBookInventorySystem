@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b96add-8474-4e59-bf3e-5d8d6bd84eda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598809662637</updated>
-      <workItem from="1598809665856" duration="903000" />
+      <workItem from="1598809665856" duration="1224000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1598809992591</created>
@@ -126,7 +126,49 @@
       <option name="project" value="LOCAL" />
       <updated>1598810505135</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="create getters and setters for fields in Student.java class">
+      <created>1598810605190</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1598810605190</updated>
+    </task>
+    <task id="LOCAL-00012" summary="create two methods to show student books issued array and to store books to array in Student.java class">
+      <created>1598810707444</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598810707444</updated>
+    </task>
+    <task id="LOCAL-00013" summary="create toString, equals and hashcode methods in Student.java class">
+      <created>1598810757540</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1598810757540</updated>
+    </task>
+    <task id="LOCAL-00014" summary="create Library.java class">
+      <created>1598810792321</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1598810792321</updated>
+    </task>
+    <task id="LOCAL-00015" summary="create fields in Library.java class">
+      <created>1598810839061</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1598810839061</updated>
+    </task>
+    <task id="LOCAL-00016" summary="create constructor for fields in Library.java and store values in array">
+      <created>1598810902248</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1598810902248</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,7 +185,13 @@
     <MESSAGE value="create Student.java class" />
     <MESSAGE value="create fields in Student.java class" />
     <MESSAGE value="create constructor in Student.java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="create constructor in Student.java class" />
+    <MESSAGE value="create getters and setters for fields in Student.java class" />
+    <MESSAGE value="create two methods to show student books issued array and to store books to array in Student.java class" />
+    <MESSAGE value="create toString, equals and hashcode methods in Student.java class" />
+    <MESSAGE value="create Library.java class" />
+    <MESSAGE value="create fields in Library.java class" />
+    <MESSAGE value="create constructor for fields in Library.java and store values in array" />
+    <option name="LAST_COMMIT_MESSAGE" value="create constructor for fields in Library.java and store values in array" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
