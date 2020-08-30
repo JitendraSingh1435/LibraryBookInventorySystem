@@ -5,6 +5,8 @@
  *   File: Library.java
  */
 
+import java.util.Arrays;
+
 public class Library {
 
     public static final String ANSI_RED = "\u001B[31m";
@@ -55,4 +57,23 @@ public class Library {
             System.out.println(book);
         }
     }
+
+    @Override
+    public String toString() {
+        return Arrays.toString(booksAvailable);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Library library = (Library) o;
+        return Arrays.equals(getBooksAvailable(), library.getBooksAvailable());
+    }
+
+    @Override
+    public int hashCode() {
+        return Arrays.hashCode(getBooksAvailable());
+    }
+
 }
