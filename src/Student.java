@@ -5,6 +5,9 @@
  *   File: Student.java
  */
 
+import java.util.Arrays;
+import java.util.Objects;
+
 public class Student {
 
     public static final String ANSI_RED = "\u001B[31m";
@@ -85,6 +88,34 @@ public class Student {
                 System.out.println(ANSI_PURPLE + books + ANSI_RESET);
             }
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "studentName='" + studentName + '\'' +
+                ", universityRollNumber=" + universityRollNumber +
+                ", numberOfBooksIssued=" + numberOfBooksIssued +
+                ", nameOfTheBooksIssued=" + Arrays.toString(nameOfTheBooksIssued) +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Student student = (Student) o;
+        return getUniversityRollNumber() == student.getUniversityRollNumber() &&
+                getNumberOfBooksIssued() == student.getNumberOfBooksIssued() &&
+                Objects.equals(getStudentName(), student.getStudentName()) &&
+                Arrays.equals(getNameOfTheBooksIssued(), student.getNameOfTheBooksIssued());
+    }
+
+    @Override
+    public int hashCode() {
+        int result = Objects.hash(getStudentName(), getUniversityRollNumber(), getNumberOfBooksIssued());
+        result = 31 * result + Arrays.hashCode(getNameOfTheBooksIssued());
+        return result;
     }
 
 }
