@@ -6,4 +6,7 @@
  */
 
 public class Book {
+    private String bookName;
+    private String nameOfTheAuthor;
+    private String isbnNumber;
 }
