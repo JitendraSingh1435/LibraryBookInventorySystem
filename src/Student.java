@@ -24,4 +24,10 @@ public class Student {
     private Book[] nameOfTheBooksIssued;
     private String nameOfCurrentIssuedBook;
 
+    public Student() {
+        this.studentName = "Stephen";
+        this.universityRollNumber = 191500675;
+        this.numberOfBooksIssued = 1;
+    }
+
 }
