@@ -21,4 +21,9 @@ public class FrontDesk {
     public static final int SHOW_ISSUED_BOOKS = 3;
     public static final int EXIT = 4;
     Student studentDetails;
+
+    public static void main(String[] args) {
+
+    }
+
 }
