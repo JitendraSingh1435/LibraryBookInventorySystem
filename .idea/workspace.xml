@@ -2,23 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0b96add-8474-4e59-bf3e-5d8d6bd84eda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibraryBookInventorySystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Book.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gpRgohRsIHHQiVynjbVuPmyUZg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,12 +54,67 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1598809662637</updated>
-      <workItem from="1598809665856" duration="294000" />
+      <workItem from="1598809665856" duration="601000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1598809992591</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1598809992591</updated>
+    </task>
+    <task id="LOCAL-00002" summary="create Book.java class">
+      <created>1598810030954</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598810030954</updated>
+    </task>
+    <task id="LOCAL-00003" summary="create fields in Book.java class">
+      <created>1598810068519</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1598810068519</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create constructor for field">
+      <created>1598810165239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598810165239</updated>
+    </task>
+    <task id="LOCAL-00005" summary="create getter and setter for fields in Book.java">
+      <created>1598810202398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598810202398</updated>
+    </task>
+    <task id="LOCAL-00006" summary="create toString method on Book.java class">
+      <created>1598810278666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1598810278666</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="create Book.java class" />
+    <MESSAGE value="create fields in Book.java class" />
+    <MESSAGE value="create constructor for field" />
+    <MESSAGE value="create getter and setter for fields in Book.java" />
+    <MESSAGE value="create toString method on Book.java class" />
+    <option name="LAST_COMMIT_MESSAGE" value="create toString method on Book.java class" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="38" key="CommitChangelistDialog2" timestamp="1598809989904">
