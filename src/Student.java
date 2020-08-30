@@ -58,4 +58,33 @@ public class Student {
         this.nameOfCurrentIssuedBook = nameOfCurrentIssuedBook;
     }
 
+    public void storeBooksIssuedByStudent() {
+        int count = 0;
+        for (int index = 0; index > -1; index++) {
+            if (count < 5) {
+                if (booksIssuedByStudent[count] == null) {
+                    booksIssuedByStudent[count] = this.nameOfCurrentIssuedBook;
+                    break;
+                } else {
+                    count = count + 1;
+
+                }
+            } else {
+                if (count == 5) {
+                    System.out.println(ANSI_RED + "You can't issue more than 5 books.\nYou have to return a book to issue a new book.\"" + ANSI_RESET);
+                    break;
+                }
+            }
+        }
+    }
+
+    public void showBooksIssuedByStudent() {
+        System.out.println("You have issued these books:-");
+        for (String books : this.booksIssuedByStudent) {
+            if (books != null) {
+                System.out.println(ANSI_PURPLE + books + ANSI_RESET);
+            }
+        }
+    }
+
 }
