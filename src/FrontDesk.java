@@ -5,6 +5,8 @@
  *   File: FrontDesk.java
  */
 
+import java.util.Scanner;
+
 public class FrontDesk {
 
     public static final String ANSI_RED = "\u001B[31m";
@@ -24,6 +26,20 @@ public class FrontDesk {
 
     public static void main(String[] args) {
 
+        Scanner scanner = new Scanner(System.in);
+        int studentInput;
+        Library libraryBook = new Library();
+        Student studentBook = new Student();
+        String bookName;
+        String[] myBooks = new String[5];
+
+
+        System.out.println("-=-=-=-=-=-\"Welcome To Front Desk\"-=-=-=-=-=-");
+        System.out.println("How may I help you today?");
+        System.out.println("1. Issue a new book for me.");
+        System.out.println("2. Return a previously issued book fro me.");
+        System.out.println("3. Show me all my issued books.");
+        System.out.println("4. Exit.");
     }
 
 }
