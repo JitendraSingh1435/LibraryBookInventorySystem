@@ -30,4 +30,32 @@ public class Student {
         this.numberOfBooksIssued = 1;
     }
 
+    public String getStudentName() {
+        return studentName;
+    }
+
+    public long getUniversityRollNumber() {
+        return universityRollNumber;
+    }
+
+    public int getNumberOfBooksIssued() {
+        return numberOfBooksIssued;
+    }
+
+    public Book[] getNameOfTheBooksIssued() {
+        return nameOfTheBooksIssued.clone();
+    }
+
+    public void setNameOfTheBooksIssued(Book[] nameOfTheBooksIssued) {
+        this.nameOfTheBooksIssued = nameOfTheBooksIssued;
+    }
+
+    public String getNameOfCurrentIssuedBook() {
+        return nameOfCurrentIssuedBook;
+    }
+
+    public void setNameOfCurrentIssuedBook(String nameOfCurrentIssuedBook) {
+        this.nameOfCurrentIssuedBook = nameOfCurrentIssuedBook;
+    }
+
 }
