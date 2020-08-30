@@ -40,6 +40,44 @@ public class FrontDesk {
         System.out.println("2. Return a previously issued book fro me.");
         System.out.println("3. Show me all my issued books.");
         System.out.println("4. Exit.");
+
+        do {
+            System.out.println("\nEnter number for query between 1 to 4");
+            studentInput = scanner.nextInt();
+
+            switch (studentInput) {
+                case ISSUE_NEW_BOOK:
+                    System.out.println(ANSI_BLUE + "Enter the name of the book you want to issue." + ANSI_RESET);
+                    scanner.nextLine();
+                    bookName = scanner.nextLine();
+
+                    if (bookName.isBlank()) {
+                        System.out.println(ANSI_RED + "Book name field cannot be blank" + ANSI_RESET);
+                    } else {
+                        libraryBook.bookIssued(bookName);
+                    }
+                    studentBook.setNameOfCurrentIssuedBook(bookName);
+                    studentBook.storeBooksIssuedByStudent();
+                    break;
+                case RETURN_ISSUED_BOOK:
+                    System.out.println(ANSI_GREEN + "Enter the book name you want to return." + ANSI_RESET);
+                    scanner.nextLine();
+                    bookName = scanner.nextLine();
+
+                    if (bookName.isBlank()) {
+                        System.out.println(ANSI_RED + "Book name field cannot be blank" + ANSI_RESET);
+                    } else {
+                        libraryBook.bookReturned(bookName);
+                    }
+                    break;
+                case SHOW_ISSUED_BOOKS:
+                    studentBook.showBooksIssuedByStudent();
+
+            }
+        } while (studentInput != EXIT);
+        scanner.close();
+
+
     }
 
 }
