@@ -42,4 +42,17 @@ public class Library {
         this.booksAvailable = booksAvailable;
     }
 
+    public void bookIssued(String bookName) {
+        System.out.println(ANSI_BLUE + "\"" + bookName + "\" book is issued." + ANSI_RESET);
+    }
+
+    public void bookReturned(String bookName) {
+        System.out.println(ANSI_GREEN + "Thank you to return \"" + bookName + "\" book." + ANSI_RESET);
+    }
+
+    public void booksAvailable() {
+        for (Book book : this.booksAvailable) {
+            System.out.println(book);
+        }
+    }
 }
